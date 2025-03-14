@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 h1{/* seletor */
     color: #000000;/* adobe color - exadecimal */
     background-color: #E62600;
@@ -10,11 +14,32 @@ h2{
     background-color: #000000;
 }
 p{
-    border: 1px solid red;
-    width: ;
-    height: ;
+    width: auto ;
+    height: auto ;
 }
+
+#paragrafolink {
+    text-align: center;
+
+}
+
+span {
+    font-weight: bold;
+}
+
 a{
-    color: #E6664C;
+    background-color: #E62600;
+    color: black;
+    text-decoration: none;/* remover linha inferior */
+    width: 250px ;
+    height: 30px ;
+    display: inline-block;/* inline não recebe altura/largura */
+    text-align: center;
+    line-height: 30px;
+}
+a:hover{
+    color: aqua;
+    background-color: azure;
+    outline: 2px solid blue;
 
 }
